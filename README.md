@@ -2,12 +2,11 @@
 windows下的react-native 环境搭建
 ------------------------------------------
 ### 一、准备工作
-  这里的准备工作，主要分为如下几点：
-  安装jdk，配置jdk的环境变量
-  配置android开发环境，配置sdk的环境，这里的sdk必须有23版本
-  安装genymotion，当然这里也可以使用真机调试
-  安装git
-  安装node.js(版本6.0以上) 并配置环境变量
+  安装jdk，配置jdk的环境变量> 
+  配置android开发环境，配置sdk的环境，这里的sdk必须有23版本> 
+  安装genymotion，当然这里也可以使用真机调试，我推荐蓝叠> 
+  安装git> 
+  安装node.js(版本6.0以上) 并配置环境变量> 
 
 ### 二、react native环境搭建
 
@@ -28,7 +27,7 @@ react-native init firstProject        会创建一个叫做firstProject的工程
      react-native run-android
 之后在执行
      adb reverse tcp:8081 tcp:8081
-
+### 三、注意
 需要注意的是，在运行该命令的之前必须打开模拟器，或者连上真机调试。千万切记：在正式运之前，最好另外打开一个窗口，还要通过react-native start来开启服务如下： 
 这里写图片描述
 这里写图片描述 
