@@ -1,15 +1,15 @@
 # Windows-environment
 windows下的react-native 环境搭建
 ------------------------------------------
-一、准备工作
-这里的准备工作，主要分为如下几点：
-安装jdk，配置jdk的环境变量
-配置android开发环境，配置sdk的环境，这里的sdk必须有23版本
-安装genymotion，当然这里也可以使用真机调试
-安装git
-安装node.js(版本6.0以上) 并配置环境变量
+### 一、准备工作
+  这里的准备工作，主要分为如下几点：
+  安装jdk，配置jdk的环境变量
+  配置android开发环境，配置sdk的环境，这里的sdk必须有23版本
+  安装genymotion，当然这里也可以使用真机调试
+  安装git
+  安装node.js(版本6.0以上) 并配置环境变量
 
-二、react native环境搭建
+### 二、react native环境搭建
 
 我在e盘下创建一个reactnative目录，用来存放创建的工程，进入该目录，执行如下命令：
  npm install -g react-native-cli
