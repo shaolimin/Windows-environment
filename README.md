@@ -16,14 +16,16 @@ windows下的react-native 环境搭建
 ### 二、react native环境搭建
 
 我在e盘下创建一个reactnative目录，用来存放创建的工程，进入该目录，执行如下命令：
- npm install -g react-native-cli
- react-native init firstProject
-npm install -g react-native-cli    会安装react native需要的相关组件。
-react-native init firstProject        会创建一个叫做firstProject的工程 
+> 
+ npm install -g react-native-cli    会安装react native需要的相关组件。
+ > 
+ react-native init firstProject     会创建一个叫做firstProject的工程 
+ >      
 这里一定要保持网络畅通，最好可以翻墙，如果不行，可以运行如下命令设置npm国内的代理：
+> 
      npm config set disturl https://npm.taobao.org/dist
-完成之后会在该目录下新创建一个firstProject的工程： 
-这里写图片描述
+> 
+
 运行android应用
 
 至此，firstProject工程已经创建好了，进入该工程目录，执行如下命令，运行该工程：
